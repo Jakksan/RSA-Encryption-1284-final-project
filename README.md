@@ -44,7 +44,8 @@ g++ publickey_gen.cpp -o publickey_gen -lgmp -lgmpxx
 g++ encrypt.cpp -o encrypt -lgmp -lgmpxx
 ```
 ### Running the Program
-First, generate a public key by running the "publickey_gen" executable.
-Next, simply run the "encrypt" executable and enter the text you want to encrypt.
+1) Generate two large prime numbers by running the "generatePrimes" executable.
+2) Generate a public key by running the "publickey_gen" executable.
+3) Run the "encrypt" executable and enter the text you want to encrypt.
 
-Happy encrypting!
+## Happy encrypting!
